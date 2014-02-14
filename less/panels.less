@@ -3,6 +3,7 @@
 	border: 0;
 	position: relative;
 	background-color: transparent;
+	box-shadow: none;
 
 	span.company-logo {
 		height: 70px;
@@ -10,21 +11,102 @@
 		background-color: #222222;
 		display: block;
 		position: absolute;
-		left: -10px;
+		left: -15px;
+		z-index: 9;
+		top: -10px;
+		text-align: center;
+
+		&.top-pos {
+			top: -70px;
+		}
+		.vert-align {
+    		display: inline-block;
+    		height: 100%;
+    		vertical-align: middle;
+		}
+		img {
+			vertical-align: middle;
+		}
+	}
+	.toggle-box {
+		position: relative;
+		z-index: 1;
+		display: block;
+
+		.latest {
+			position: absolute;
+			bottom: 15px;
+			left: -15px;
+			background-color: #fff;
+			padding:10px;
+
+			p {
+				color: #222;
+				font-size: 11px;
+				margin: 0;
+			}
+		}
 	}
 	.panel-body {
 		padding: 0;
 	}
 	.panel-foldout-up {
-		margin-left: 61px;
+		margin-left: 56px;
 		background-color: #222222;
-		height: 70px;
-		padding: 20px;
+		position: relative;
+		z-index: 10;
+		display: none;
 
 		p {
-			color: #fff;
+			color: #cccccc;
 			font-size: 12px;
 			margin-bottom: 0;
+
+			strong {
+				color: #444444;
+				text-transform: uppercase;
+			}
+		}
+
+		.text-wrapper {
+			padding: 18px;
+			display: block;
+		}
+	}
+	.panel-foldout-down {
+		background-color: #fff;
+		position: relative;
+		right: 15px;
+		top: -15px;
+		z-index: 15;
+		display: none;
+		border-bottom: 20px solid transparent;
+		border-right: 20px solid transparent;
+
+		.text-wrapper {
+			padding: 20px 40px 5px 40px;
+			display: block;
+		}
+		.visit-link {
+			position: absolute;
+			right: -35px;
+			bottom: -35px;
+			background-color: #222222;
+			color: #fff;
+			font-size: 14px;
+			padding: 8px 10px;
+			line-height: 10px;
+			z-index: 55;
+			height: 30px;
+
+			&:hover {
+				text-decoration: none;
+				opacity: 0.8;
+			}
+		}
+		p,
+		h3 {
+			color: #333333;
 		}
 	}
 }

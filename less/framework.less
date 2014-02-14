@@ -5,22 +5,38 @@ body {
 	font-family: "Open Sans", sans-serif;
 	height: 100%;
 }
-
 .page {
     height: auto;
-    margin: 0 auto -60px;
+    margin: 0 auto -350px;
     min-height: 100%;
-    padding-bottom: 60px;
-    background-color: #bdcbbc;
-
-	section {
-		margin-bottom: 50px;
-	}
+    padding-bottom: 330px;
+    background: url("../img/bg-top.png") repeat;
+    border: 20px solid #222222;
+    overflow: hidden;
+}
+.full-width {
+  &.dark {
+    background-color: #222;
+    color: #abc3ab;
+    padding:50px;
+  }
 }
 
-// Mixin
+// Sections
+#companies {
+  padding: 65px 0;
+  background: url("../img/bg-ellipse.png") no-repeat transparent top center fixed;
+}
+#info {
+  margin-bottom: 0;
+}
+
+// Reset Bootstrap
 * {
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
           border-radius: 0 !important;
+}
+a {
+  outline: none !important;
 }

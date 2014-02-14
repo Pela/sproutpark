@@ -2,23 +2,41 @@
 
 // Top nav
 .top-nav {
-	background-color: gray;
-	height: 50px;
+	height: 180px;
+	position: relative;
+	background: url("../img/bg-top.png") repeat;
 
 	.nav {
 		li {
 			a {
-				color: #fff;
+				color: #222;
 			}
 		}
 	}
 	.toggle-hide {
+
 		span {
-			margin: 15px;
 			display: inline-block;
 		}
+		&:hover {
+			color: #666;
+			background-color: transparent;
+		}
 		&.opened span {
-			color: red;
+			color: #666;
+		}
+	}
+	.navbar-nav > {
+		margin:20px;
+		li > a  {
+			padding: 0;
+			margin: 0;
+		}
+		li {
+			float: left;
+		}
+		li.content {
+			display: none;
 		}
 	}
 }

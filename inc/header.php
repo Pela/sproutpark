@@ -19,20 +19,17 @@
 	<div class="page">
 		<header class="global">
 			<div class="top-nav">
+				<div class="top-logo"><a href="/" title="Start"><img src="img/logo-sprout.png"></a></div>
 				<div class="pull-right">
-					<ul class="nav navbar-nav hide">
-						<li class="active"><a href="/">Start</a></li>
-						<li><a href="/about.php">About</a></li>
-						<li><a href="/contact.php">Contact</a></li>
+					<ul class="nav navbar-nav list-inline">
+						<li><a href="#" class="toggle-hide"><span class="glyphicon glyphicon-align-justify"></span></a></li>
+						<li class="content">
+							<ul class="list-inline">
+								<li><a href="#info" class="scroll">About</a></li>
+								<li><a href="#contact" class="scroll">Contact</a></li>
+							</ul>
+						</li>
 					</ul>
-					<a href="#" class="toggle-hide"><span class="glyphicon glyphicon-align-justify"></span></a	>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-				  <div class="col-sm-12">
-				  	<h1 class="text-center">Digital entrepreneurship</h1>
-				  </div>
 				</div>
 			</div>
 		</header>
