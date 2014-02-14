@@ -3,15 +3,17 @@
 		<div class="container">
 			<div class="row">
 			  <div class="col-sm-12">
-			  	<h2 class="text-center">Contact</h2>
-			  	<address class="text-center">
-			  		Sprout Park AB<br />
-					Sveavägen 98<br />
-					113 50 Stockholm<br />
-					<br />
-					Phone: 08-506 34 700<br />
-					Fax: 08-612 47 06
-			  	</address>
+			  	<div class="text-wrapper">
+			  		<h2 class="text-center">Contact</h2>
+			  		<address class="text-center">
+			  			Sprout Park AB<br />
+						Sveavägen 98<br />
+						113 50 Stockholm<br />
+						<br />
+						Phone: 08-506 34 700<br />
+						Fax: 08-612 47 06
+			  		</address>
+			  	</div>
 			  </div>
 			</div>
 		</div>

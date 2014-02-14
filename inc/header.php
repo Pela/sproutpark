@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprout Park | <?php print isset($page_title) ? $page_title : ''; ?></title>
 	<link href="/css/sproutpark.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,700' rel='stylesheet' type='text/css'>
 </head>
 <body class="<?php print isset($body_class) ? $body_class : ''; ?>">
 	<div class="page">

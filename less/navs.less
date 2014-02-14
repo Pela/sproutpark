@@ -10,6 +10,11 @@
 		li {
 			a {
 				color: #222;
+
+				&:hover {
+					text-decoration: none;
+					opacity: 0.8;
+				}
 			}
 		}
 	}
@@ -17,17 +22,20 @@
 
 		span {
 			display: inline-block;
+			color: #333;
+			margin-right: 10px;
 		}
 		&:hover {
 			color: #666;
 			background-color: transparent;
 		}
 		&.opened span {
-			color: #666;
+			color: #222;
 		}
 	}
 	.navbar-nav > {
-		margin:20px;
+		margin: 15px 0 15px 15px;
+
 		li > a  {
 			padding: 0;
 			margin: 0;
@@ -37,6 +45,7 @@
 		}
 		li.content {
 			display: none;
+			padding-right: 20px;
 		}
 	}
 }
