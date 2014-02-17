@@ -22,7 +22,7 @@
 				<div class="top-logo"><a href="/" title="Start"><img src="img/logo-sprout.png"></a></div>
 				<div class="pull-right">
 					<ul class="nav navbar-nav list-inline">
-						<li><a href="#" class="toggle-hide"><span class="glyphicon glyphicon-align-justify"></span></a></li>
+						<li><a href="#" class="toggle-hide"><img src="../img/icon-meny.png"></a></li>
 						<li class="content">
 							<ul class="list-inline">
 								<li><a href="#info" class="scroll">About</a></li>

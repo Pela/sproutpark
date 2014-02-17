@@ -10,7 +10,7 @@ body {
     margin: 0 auto -290px;
     min-height: 100%;
     padding-bottom: 270px;
-    background: url("../img/bg-top.png") repeat;
+    background-color: #c1d0c0;
     border: 20px solid #222222;
     overflow: hidden;
 }
@@ -25,9 +25,20 @@ body {
 // Sections
 
 #intro {
+  padding: 10px;
+
   .text-wrapper {
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
+
+
+    h1 {
+      font-size: 24px;
+    }
+    .lead {
+      font-size: 14px;
+      line-height: 20px;
+    }
   }
 }
 #companies {
@@ -41,6 +52,11 @@ body {
     max-width: 80%;
     margin: 0 auto;
   }
+  h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
 }
 
 // Reset Bootstrap
@@ -48,6 +64,9 @@ body {
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
           border-radius: 0 !important;
+          box-shadow: none !important;
+     -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
 a {
   outline: none !important;

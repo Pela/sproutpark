@@ -2,9 +2,9 @@
 
 // Top nav
 .top-nav {
-	height: 180px;
+	height: 120px;
 	position: relative;
-	background: url("../img/bg-top.png") repeat;
+	background-color: #c1d0c0;
 
 	.nav {
 		li {
@@ -20,17 +20,20 @@
 	}
 	.toggle-hide {
 
-		span {
+		img {
 			display: inline-block;
 			color: #333;
 			margin-right: 10px;
 		}
 		&:hover {
-			color: #666;
 			background-color: transparent;
+
+			img {
+				opacity: 0.7;
+			}
 		}
-		&.opened span {
-			color: #222;
+		&.opened img {
+			opacity: 0.5;
 		}
 	}
 	.navbar-nav > {

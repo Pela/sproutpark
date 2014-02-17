@@ -47,9 +47,23 @@
 				margin: 0;
 			}
 		}
+		&:hover {
+			.panel-body {
+				img {
+					opacity: 0.8;
+				}
+			}
+		}
 	}
 	.panel-body {
 		padding: 0;
+
+		img {
+			opacity: 1;
+   			transition: opacity .25s ease-in-out;
+   			-moz-transition: opacity .25s ease-in-out;
+   			-webkit-transition: opacity .25s ease-in-out;
+		}
 	}
 	.panel-foldout-up {
 		margin-left: 56px;
@@ -68,10 +82,43 @@
 				text-transform: uppercase;
 			}
 		}
-
 		.text-wrapper {
-			padding: 18px;
-			display: block;
+			display: inline-block;
+			position: relative;
+
+			p {
+				width: 80%;
+				padding: 18px;
+
+				span,
+				strong {
+					color: #c1d0c0;
+				}
+
+			}
+			.external-link {
+				padding: 18px 10px;
+				background-color: #333333;
+				color: #fff;
+				width: 20%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				right: 0;
+
+				&:hover {
+					text-decoration: none;
+					opacity: 0.8;
+				}
+				span {
+					position: relative;
+					top: 50%;
+					margin-top: -20px;
+					height: 40px;
+					display: block;
+				}
+			}
+
 		}
 	}
 	.panel-foldout-down {
@@ -92,18 +139,17 @@
 			position: absolute;
 			right: -35px;
 			bottom: -35px;
-			background-color: #fff;
+			background-color: #dddddd;
 			color: #222;
 			font-size: 14px;
-			padding: 8px 10px;
+			padding: 10px;
 			line-height: 10px;
 			z-index: 55;
 			height: 30px;
-			border: 1px solid #ccc;
 
 			&:hover {
 				text-decoration: none;
-				opacity: 0.8;
+				opacity: 0.9;
 			}
 		}
 		p,
@@ -111,4 +157,15 @@
 			color: #333333;
 		}
 	}
+}
+
+//Wells
+.well {
+	border: 0 none;
+	background-color: transparent;
+	padding: 50px 20px;
+}
+
+.img-responsive {
+	display: inline-block;
 }
