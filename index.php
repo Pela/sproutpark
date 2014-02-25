@@ -1,10 +1,10 @@
-<?php $page_title = 'Start'; $body_class = 'front-page'; require_once( 'inc/header.php' ); ?>
+<?php $page_title = 'Digital entrepreneurship'; $body_class = 'front-page'; require_once( 'inc/header.php' ); ?>
 	<section id="intro" class="full-width dark">
 		<div class="row">
 		  <div class="col-sm-12">
 		  	<div class="text-wrapper">
 		  		<h1 class="text-center">Digital entrepreneurship</h1>
-		  		<p class="lead text-center">Lorem ipsum sit dolor amet Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  aliqua. , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		  		<p class="lead text-center">Sprout Park is a group of companies in digital entrepreneurship and communication.<br/> With an extensive knowledge within the digital world and startups we offers a wide range of services from digital communication and film production to management consultancy. We are also providing entrepreneurs with structured financial services and creative co-working space. Through our part-ownership in Hyper Island we educate and inspire existing and future talents all around the world. <br /> Welcome!</p>
 		  	</div>
 		  </div>
 		</div>
@@ -54,10 +54,10 @@
             <div class="panel-foldout-up">
               <span class="text-wrapper">
                 <!-- Company info -->
-                <p>dfm and dfm fiktion are producing feature films, TV productions, commanded films and commercials. The directors, scriptwriters and photographers that we engage, moves between the companies and the different productions. This creates variation for our team and improves the quality of the different productions.<span>
+                <p>dfm and dfm fiktion are producing feature films, TV productions, commanded films and commercials. The directors, scriptwriters and photographers that we engage, moves between the companies and the different productions.<span>
                 <strong>Areas: </strong>Film & TV, post-production, coroporate films</span></p>
 
-                <a href="http://www.britny.se" target="_blank" class="external-link text-center"><span>Visit us <br /><img src="../img/icon-arrow.png" title="Visit us!" class="img-responsive"></span></a>
+                <a href="http://www.dfm.se" target="_blank" class="external-link text-center"><span>Visit us <br /><img src="../img/icon-arrow.png" title="Visit us!" class="img-responsive"></span></a>
                </span>
             </div>
             <a href="#" class="toggle-box">
@@ -68,7 +68,7 @@
               </span>
               <div class="panel-body">
                 <!-- Company work image // Min. size 770x456px-->
-                <img src="../img/projects/klm.png" class="img-responsive">
+                <img src="../img/projects/dfm.png" class="img-responsive">
               </div>
               <div class="latest">
                 <!-- Company work teaser -->
@@ -81,7 +81,7 @@
                 <h2>Ömheten</h2>
                 <p>Winner of best photo at Guldbaggen and nominated at Berlins international filmfestival - In a small mining community in Northern Sweden, a group of youngsters about to take the leap in the adult age fight with themselves and the world around, while the ground literally trembles under their feet.</p>
               </span>
-              <a href="http://www.britny.se" class="visit-link" target="_blank"><span>Read more <img src="../img/icon-arrow-dark.png" title="Visit us!" class="img-responsive"></span></a>
+              <a href="http://www.dfm.se" class="visit-link" target="_blank"><span>Read more <img src="../img/icon-arrow-dark.png" title="Visit us!" class="img-responsive"></span></a>
             </div>
           </div>
           <!-- Sup46 -->
@@ -89,10 +89,10 @@
             <div class="panel-foldout-up">
               <span class="text-wrapper">
                 <!-- Company info -->
-                <p>Info<span>
-                <strong>Areas: </strong>Strategy, UX, Design, Tech, Project management.</span></p>
+                <p>SUP46 gathers startup people in a Stockholm based meeting & co-working space. Together, we contribute to each other's global success. Our vision is to make Stockholm the #1 startup city in the world.<span>
+                <strong>Areas: </strong>Central meeting place for entrepreneurs and financiers, with emphasis on central.</span></p>
 
-                <a href="http://www.britny.se" target="_blank" class="external-link text-center"><span>Visit us <br /><img src="../img/icon-arrow.png" title="Visit us!" class="img-responsive"></span></a>
+                <a href="http://sup46.com" target="_blank" class="external-link text-center"><span>Visit us <br /><img src="../img/icon-arrow.png" title="Visit us!" class="img-responsive"></span></a>
                </span>
             </div>
             <a href="#" class="toggle-box">
@@ -103,20 +103,20 @@
               </span>
               <div class="panel-body">
                 <!-- Company work image // Min. size 770x456px-->
-                <img src="../img/projects/klm.png" class="img-responsive">
+                <img src="../img/projects/sup46.png" class="img-responsive">
               </div>
               <div class="latest">
                 <!-- Company work teaser -->
-                <p><strong>Latest:</strong> KLM Dream Catcher</p>
+                <p><strong>Latest:</strong> Membership packages</p>
               </div>
             </a>
             <div class="panel-foldout-down">
               <span class="text-wrapper">
                 <!-- Company work body text -->
-                <h2>About KLM</h2>
-                <p>Lorem ipsum dolor. Sit ämet cönsectetur. Adipisicing elit sed dö eiusmödtempör. Incididunt ut laböre et dolöre.</p>
+                <h2>Membership packages</h2>
+                <p> Co-working space with flex/fixed seats and dedicated office rooms. Quantity discount & 24/7-access.</p>
               </span>
-              <a href="http://www.britny.se" class="visit-link" target="_blank"><span>Read more <img src="../img/icon-arrow-dark.png" title="Visit us!" class="img-responsive"></span></a>
+              <a href="http://sup46.com" class="visit-link" target="_blank"><span>Read more <img src="../img/icon-arrow-dark.png" title="Visit us!" class="img-responsive"></span></a>
             </div>
           </div>
           <!-- Reaktor -->
@@ -125,9 +125,9 @@
               <span class="text-wrapper">
                 <!-- Company info -->
                 <p>Reaktor is a communication agency specialised in sound - all aspects of sound. As such, we help companies and organisations to strategically and operationally make use of sound and music as a means to reach business objectives.<span>
-                <strong>Areas: </strong>Strategy, UX, Design, Tech, Project management.</span></p>
+                <strong>Areas: </strong>Sound design and strategies for digital content, commercials, TV/film, podcast and office areas</span></p>
 
-                <a href="http://www.britny.se" target="_blank" class="external-link text-center"><span>Visit us <br /><img src="../img/icon-arrow.png" title="Visit us!" class="img-responsive"></span></a>
+                <a href="http://reaktorsthlm.se" target="_blank" class="external-link text-center"><span>Visit us <br /><img src="../img/icon-arrow.png" title="Visit us!" class="img-responsive"></span></a>
                </span>
             </div>
             <a href="#" class="toggle-box">
@@ -138,20 +138,20 @@
               </span>
               <div class="panel-body">
                 <!-- Company work image // Min. size 770x456px-->
-                <img src="../img/projects/klm.png" class="img-responsive">
+                <img src="../img/projects/adecco-resume.png" class="img-responsive">
               </div>
               <div class="latest">
                 <!-- Company work teaser -->
-                <p><strong>Latest:</strong> KLM Dream Catcher</p>
+                <p><strong>Latest:</strong> Adecco - Resume</p>
               </div>
             </a>
             <div class="panel-foldout-down">
               <span class="text-wrapper">
                 <!-- Company work body text -->
-                <h2>About KLM</h2>
-                <p>Lorem ipsum dolor. Sit ämet cönsectetur. Adipisicing elit sed dö eiusmödtempör. Incididunt ut laböre et dolöre.</p>
+                <h2>Adecco - Resume</h2>
+                <p>On the digital arena, communicating hard-earned career credentials to stand out in the professional world can be challenging and time consuming. Resu-ME is a service that helps you to get the job by digitally differentiating your LinkedIn career profile.</p>
               </span>
-              <a href="http://www.britny.se" class="visit-link" target="_blank"><span>Read more <img src="../img/icon-arrow-dark.png" title="Visit us!" class="img-responsive"></span></a>
+              <a href="http://reaktorsthlm.se/portfolio/223" class="visit-link" target="_blank"><span>Read more <img src="../img/icon-arrow-dark.png" title="Read more!" class="img-responsive"></span></a>
             </div>
           </div>
         </div>
@@ -163,9 +163,7 @@
               <span class="text-wrapper">
                 <!-- Company info -->
                 <p>Business Consultancy agency within management, economics, HR and law.<span>
-                <strong>Areas: </strong>Strategy, UX, Design, Tech, Project management.</span></p>
-
-                <a href="http://www.britny.se" target="_blank" class="external-link text-center"><span>Visit us <br /><img src="../img/icon-arrow.png" title="Visit us!" class="img-responsive"></span></a>
+                <strong>Areas: </strong>Management consultancy</span></p>
                </span>
             </div>
             <a href="#" class="toggle-box">
@@ -176,20 +174,19 @@
               </span>
               <div class="panel-body">
                 <!-- Company work image // Min. size 770x456px-->
-                <img src="../img/projects/klm.png" class="img-responsive">
+                <img src="../img/projects/helene.png" class="img-responsive">
               </div>
               <div class="latest">
                 <!-- Company work teaser -->
-                <p><strong>Latest:</strong> KLM Dream Catcher</p>
+                <p>Contact</p>
               </div>
             </a>
             <div class="panel-foldout-down">
               <span class="text-wrapper">
                 <!-- Company work body text -->
-                <h2>About KLM</h2>
-                <p>New recruitment to meet customer demands.</p>
+                <h2>Contact</h2>
+                <p>Helene Lindblad, Deputy Director - <a href="mailto:helene.lindblad@sproutpark.com">helene.lindblad@sproutpark.com</a></p>
               </span>
-              <a href="http://www.britny.se" class="visit-link" target="_blank"><span>Read more <img src="../img/icon-arrow-dark.png" title="Visit us!" class="img-responsive"></span></a>
             </div>
           </div>
           <!-- Hyper Island -->
@@ -211,7 +208,7 @@
               </span>
               <div class="panel-body">
                 <!-- Company work image // Min. size 770x456px-->
-                <img src="../img/projects/klm.png" class="img-responsive">
+                <img src="../img/projects/hyper.png" class="img-responsive">
               </div>
               <div class="latest">
                 <!-- Company work teaser -->
@@ -224,7 +221,7 @@
                 <h2>Going global with master classes</h2>
                 <p>Hyper Island Master Class is an intensive learning experience that will challenge your thinking and perception on the influence and possibilities within digital media.</p>
               </span>
-              <a href="http://www.hyperisland.com" class="visit-link" target="_blank"><span>Read more <img src="../img/icon-arrow-dark.png" title="Visit us!" class="img-responsive"></span></a>
+              <a href="http://www.hyperisland.com/programs-and-courses/master-class" class="visit-link" target="_blank"><span>Read more <img src="../img/icon-arrow-dark.png" title="Visit us!" class="img-responsive"></span></a>
             </div>
           </div>
           <!-- The Park -->
@@ -235,7 +232,7 @@
                 <p>Co-working place for people with big ideas in central Stockholm.<span>
                 <strong>Areas: </strong>Strategy, UX, Design, Tech, Project management.</span></p>
 
-                <a href="http://www.sproutpark.se/" class="external-link text-center"><span>Visit us <br /><img src="../img/icon-arrow.png" title="Visit us!" class="img-responsive"></span></a>
+                <a href="http://thepark.se" target="_blank" class="external-link text-center"><span>Visit us <br /><img src="../img/icon-arrow.png" title="Visit us!" class="img-responsive"></span></a>
                </span>
             </div>
             <a href="#" class="toggle-box">
@@ -259,7 +256,7 @@
                 <h2>About</h2>
                 <p>Opening up for conferences and events.</p>
               </span>
-              <a href="http://www.britny.se" class="visit-link" target="_blank"><span>Read more <img src="../img/icon-arrow-dark.png" title="Visit us!" class="img-responsive"></span></a>
+              <a href="http://thepark.se" class="visit-link" target="_blank"><span>Read more <img src="../img/icon-arrow-dark.png" title="Visit us!" class="img-responsive"></span></a>
             </div>
           </div>
         </div>
