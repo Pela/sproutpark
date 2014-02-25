@@ -5,6 +5,8 @@ footer.global {
 	border: 20px solid #222222;
 	border-top: none;
 	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
 	h2 {
 		margin-bottom: 25px;
@@ -12,6 +14,11 @@ footer.global {
 
 	.map {
 		display: block;
+		margin-top: 15px;
+
+		&:hover {
+			opacity: 0.8;
+		}
 	}
 
 	.list-logos {
@@ -19,9 +26,21 @@ footer.global {
 		margin: 0;
 
 		li {
-			padding: 10px 10px 10px 0;
+			padding: 0 10px 15px 0;
 			list-style: none;
 			display: inline-block;
+
+			a {
+				&:hover {
+					opacity: 0.8;
+				}
+			}
 		}
+	}
+	a {
+		opacity: 1;
+   		transition: opacity .25s ease-in-out;
+   		-moz-transition: opacity .25s ease-in-out;
+   	    -webkit-transition: opacity .25s ease-in-out;
 	}
 }

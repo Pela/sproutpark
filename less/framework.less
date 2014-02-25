@@ -18,7 +18,6 @@ body {
   &.dark {
     background-color: #222;
     color: #abc3ab;
-    padding:50px;
   }
 }
 
@@ -28,7 +27,8 @@ body {
   padding: 10px;
 
   .text-wrapper {
-    max-width: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0 auto;
 
 
@@ -41,6 +41,16 @@ body {
     }
   }
 }
+@media (min-width: @screen-sm-min) {
+  #intro {
+
+    .text-wrapper {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  }
+}
+
 #companies {
   padding: 60px 0 20px;
   background: url("../img/bg-ellipse.png") no-repeat transparent top center fixed;
@@ -49,13 +59,21 @@ body {
   margin-bottom: 0;
 
   .text-wrapper {
-    max-width: 80%;
+    padding: 20px;
     margin: 0 auto;
   }
   h2 {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+  #info {
+    .text-wrapper {
+      padding: 50px;
+    }
   }
 }
 

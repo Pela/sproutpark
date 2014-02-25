@@ -38,9 +38,9 @@
 
 						<li><a href="http://hyperisland.se" target="_blank" title="Hyper Island"><img src="../img/footer-logos/hyperisland.png" alt="Hyper Island"></a></li>
 
-						<li><a href="www.sup46.com" target="_blank" title="Sup46"><img src="../img/footer-logos/sup46.png" alt="Sprout Park"></a></li>
+						<li><a href="http://www.sup46.com" target="_blank" title="Sup46"><img src="../img/footer-logos/sup46.png" alt="Sup46"></a></li>
 
-						<li><a href="" target="_blank" title="Hyper Island"><img src="../img/footer-logos/sproutadv.png" alt="Sprout Park"></a></li>
+						<li><img src="../img/footer-logos/sproutadv.png" alt="Sprout Advanced"></li>
 			  		</ul>
 			  	</div>
 			  </div>

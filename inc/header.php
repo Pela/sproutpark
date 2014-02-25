@@ -19,7 +19,7 @@
 	<div class="page">
 		<header class="global">
 			<div class="top-nav">
-				<div class="top-logo"><a href="/" title="Start"><img src="img/logo-sprout.png"></a></div>
+				<div class="top-logo"><a href="/" title="Start"><img src="img/logo-sprout.png" class="img-responsive"></a></div>
 				<div class="pull-right">
 					<ul class="nav navbar-nav list-inline">
 						<li><a href="#" class="toggle-hide"><img src="../img/icon-meny.png"></a></li>
